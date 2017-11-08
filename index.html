@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>First Example - CSS Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div style="margin:20px;">
+        <span>Layout: </span>
+        <a href="#" class="stack">Stack</a>
+        <a href="#" class="grid">Grid</a>
+      </div>
+
+      <section id="blocks">
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+        <article>
+          <img src="img/me.jpg">
+          <h1>badris abdelilah</h1>
+          <h2>badrisabdelilah5@outlook.com</h2>
+          <p>I'm Abdelilah Badris 20 years old studying in University software engineering , i'm a graphic/web designer and frontend developer</p>
+        </article>
+      </section>
+
+    </div>
+    <script type="text/javascript">
+      $("a.stack").on("click",function() {
+        $("article").addClass("stack");
+      });
+
+      $("a.grid").on("click",function() {
+        $("article").removeClass("stack");
+      });
+    </script>
+  </body>
+</html>
